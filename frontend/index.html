@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Convert</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Placeholder">
+    </header>
+
+    <main>
+        <div class="upload-container">
+            <h2>Upload a File</h2>
+            <div id="drop-area" class="drop-area">
+                <p>Drag and drop files here</p>
+            </div>
+            <input type="file" id="file-input" multiple>
+        </div>
+
+        <!-- ... (existing HTML) -->
+
+<div class="pop-out-boxes">
+    <div class="dropdown">
+        <button class="pop-out-box">Dropdown 1</button>
+        <div class="dropdown-content">
+            <a href="#" class="dropdown-item">Item 1</a>
+            <a href="#" class="dropdown-item">Item 2</a>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="pop-out-box">Dropdown 2</button>
+        <div class="dropdown-content">
+            <a href="#" class="dropdown-item">Item A</a>
+            <a href="#" class="dropdown-item">Item B</a>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
+</div>
+
+<!-- ... (existing HTML) -->
+
+        <button id="convert-button">Convert</button>
+        
+        <div class="download-container">
+            <a href="#" id="download-button" class="hidden">Download Video</a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
